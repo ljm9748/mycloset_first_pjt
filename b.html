@@ -1,0 +1,60 @@
+<!DOCTYPE html>  
+<html lang="ko">
+<head>
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+          
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <meta charset="utf-8">
+    <title> Message </title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+       
+    
+    <form action="전송받을대상">
+        <h2> 코멘트를 남겨주세요 </h2>
+        <h4> 이메일과 비밀번호를 설정한 후 이용가능합니다.</h4>
+        
+        <div class="form-group">
+                <label for="exampleInputEmail1">이메일 주소</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">암호</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="암호">
+              </div>
+
+        제목:<input type="text" name="comment title" >
+        <select>
+            <option value="suggestion">건의사항</option>
+            <option value="evaluation">평가</option>
+        </select><br>
+        
+        내용:<br>
+        <textarea cols="100" rows="3"></textarea>
+        <br>
+        <input type="submit" class="btn btn-primary">
+    </form><br>
+
+    </div>    
+</body>
+
+
+
+ </html>   
+
